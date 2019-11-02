@@ -1,14 +1,13 @@
 # Iromeku
 
-[![Build Status](https://travis-ci.com/carousell/DataAccessLayer.svg?token=EF9qHkSmyt2BrPXZdP6q&branch=master)](https://travis-ci.com/carousell/DataAccessLayer)
+[![Build Status](https://travis-ci.com/carousell/DataAccessLayer.svg?token=EF9qHkSmyt2BrPXZdP6q&branch=master)](https://travis-ci.com/carousell/DataAccessLayer) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/iromeku)
 
 > 色めく (hiragana いろめく, rōmaji iromeku) 1. to become lively 2. to become roused 3. to look arousing
 
 Iromeku is a library to extract a colour palette from a given image.
 
 The implementation is heavily inspired by the Stack Overflow answer here: ![How does
-the algorithm to color the song list in iTunes 11
-work?](https://stackoverflow.com/questions/13637892/how-does-the-algorithm-to-color-the-song-list-in-itunes-11-work#answer-13675803)
+the algorithm to color the song list in iTunes 11 work?](https://stackoverflow.com/questions/13637892/how-does-the-algorithm-to-color-the-song-list-in-itunes-11-work#answer-13675803)
 
 The way it works is by clustering similar colours together, based on the
 Euclidean distances of the pixel's value in the YUV colour space, which more
