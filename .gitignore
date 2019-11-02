@@ -9,3 +9,4 @@ build
 htmlcov
 .mypy_cache
 *.egg-info
+.tox
